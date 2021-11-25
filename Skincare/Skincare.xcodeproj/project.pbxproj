@@ -58,16 +58,56 @@
 		4C44291A275027C800776EB7 /* Skincare */ = {
 			isa = PBXGroup;
 			children = (
-				4C44291B275027C800776EB7 /* AppDelegate.swift */,
-				4C44291D275027C800776EB7 /* SceneDelegate.swift */,
-				4C44291F275027C800776EB7 /* ViewController.swift */,
-				4C442921275027C800776EB7 /* Main.storyboard */,
-				4C442927275027CA00776EB7 /* Assets.xcassets */,
-				4C442929275027CA00776EB7 /* LaunchScreen.storyboard */,
-				4C44292C275027CA00776EB7 /* Info.plist */,
-				4C442924275027C800776EB7 /* Skincare.xcdatamodeld */,
+				9972F6C127502CBE00597571 /* Model */,
+				9972F6BF27502C3900597571 /* View */,
+				9972F6BE27502BE300597571 /* ViewController */,
+				9972F6BD27502B9100597571 /* Apple */,
+				9972F6BC27502B7400597571 /* Storyboard */,
 			);
 			path = Skincare;
+			sourceTree = "<group>";
+		};
+		9972F6BC27502B7400597571 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4C442921275027C800776EB7 /* Main.storyboard */,
+				4C442929275027CA00776EB7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		9972F6BD27502B9100597571 /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				4C44291B275027C800776EB7 /* AppDelegate.swift */,
+				4C44291D275027C800776EB7 /* SceneDelegate.swift */,
+				4C44292C275027CA00776EB7 /* Info.plist */,
+				4C442927275027CA00776EB7 /* Assets.xcassets */,
+				4C442924275027C800776EB7 /* Skincare.xcdatamodeld */,
+			);
+			path = Apple;
+			sourceTree = "<group>";
+		};
+		9972F6BE27502BE300597571 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4C44291F275027C800776EB7 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9972F6BF27502C3900597571 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9972F6C127502CBE00597571 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
