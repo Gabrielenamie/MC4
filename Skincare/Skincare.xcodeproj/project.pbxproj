@@ -14,6 +14,8 @@
 		4C442926275027C900776EB7 /* Skincare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C442924275027C800776EB7 /* Skincare.xcdatamodeld */; };
 		4C442928275027CA00776EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C442927275027CA00776EB7 /* Assets.xcassets */; };
 		4C44292B275027CA00776EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C442929275027CA00776EB7 /* LaunchScreen.storyboard */; };
+		9972F6C327502F6600597571 /* teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9972F6C227502F6600597571 /* teste.swift */; };
+		9972F6C527502F9700597571 /* teste1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9972F6C427502F9700597571 /* teste1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		4C442927275027CA00776EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C44292A275027CA00776EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C44292C275027CA00776EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9972F6C227502F6600597571 /* teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teste.swift; sourceTree = "<group>"; };
+		9972F6C427502F9700597571 /* teste1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teste1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		9972F6BF27502C3900597571 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9972F6C227502F6600597571 /* teste.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 		9972F6C127502CBE00597571 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9972F6C427502F9700597571 /* teste1.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,7 +188,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C442920275027C800776EB7 /* ViewController.swift in Sources */,
+				9972F6C527502F9700597571 /* teste1.swift in Sources */,
 				4C442926275027C900776EB7 /* Skincare.xcdatamodeld in Sources */,
+				9972F6C327502F6600597571 /* teste.swift in Sources */,
 				4C44291C275027C800776EB7 /* AppDelegate.swift in Sources */,
 				4C44291E275027C800776EB7 /* SceneDelegate.swift in Sources */,
 			);
