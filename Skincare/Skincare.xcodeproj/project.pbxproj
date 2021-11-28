@@ -39,6 +39,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		217176B227542A8000C5CD14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99B1646A27516C6100DE8120 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		217176B327542A9500C5CD14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		99B1645A27516C6100DE8120 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +73,10 @@
 		99B1646527516C6100DE8120 /* Skincare */ = {
 			isa = PBXGroup;
 			children = (
+				217176B327542A9500C5CD14 /* Model */,
+				217176B227542A8000C5CD14 /* View */,
 				99B1646627516C6100DE8120 /* AppDelegate.swift */,
 				99B1646827516C6100DE8120 /* SceneDelegate.swift */,
-				99B1646A27516C6100DE8120 /* ViewController.swift */,
 				99B1646C27516C6100DE8120 /* Main.storyboard */,
 				99B1647227516C6300DE8120 /* Assets.xcassets */,
 				99B1647427516C6300DE8120 /* LaunchScreen.storyboard */,
