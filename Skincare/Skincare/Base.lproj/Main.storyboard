@@ -114,8 +114,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQz-1m-2NX">
-                                <rect key="frame" x="20" y="330" width="177" height="200"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQz-1m-2NX">
+                                <rect key="frame" x="20" y="354" width="177" height="200"/>
                                 <color key="backgroundColor" name="gelo botao"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="177" id="E21-3f-IfT"/>
@@ -130,8 +130,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IT1-fR-7vd">
-                                <rect key="frame" x="217" y="330" width="177" height="200"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IT1-fR-7vd">
+                                <rect key="frame" x="217" y="354" width="177" height="200"/>
                                 <color key="backgroundColor" name="gelo botao"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="177" id="4av-Sm-1Nh"/>
@@ -146,8 +146,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o7a-au-ERr">
-                                <rect key="frame" x="20" y="550" width="177" height="200"/>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o7a-au-ERr">
+                                <rect key="frame" x="20" y="574" width="177" height="200"/>
                                 <color key="backgroundColor" name="gelo botao"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="177" id="s1R-a7-M92"/>
@@ -162,8 +162,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FM4-8g-m1H">
-                                <rect key="frame" x="217" y="550" width="177" height="200"/>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FM4-8g-m1H">
+                                <rect key="frame" x="217" y="574" width="177" height="200"/>
                                 <color key="backgroundColor" name="gelo botao"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="Kj1-hh-1D6"/>
@@ -358,22 +358,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="jtg-Rh-vZR">
-                                        <rect key="frame" x="0.0" y="88" width="374" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jtg-Rh-vZR" id="sY7-C2-2IY">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="3kV-WI-bcV">
-                                        <rect key="frame" x="0.0" y="131.5" width="374" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3kV-WI-bcV" id="8N4-EU-0YL">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" name="Bg"/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -518,7 +503,7 @@
         <!--Hoje-->
         <scene sceneID="cBu-kA-nzS">
             <objects>
-                <viewController id="eEQ-bH-nev" sceneMemberID="viewController">
+                <viewController id="eEQ-bH-nev" customClass="TodayViewController" customModule="Skincare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFill" id="YgQ-t1-inJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -551,43 +536,43 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="DOM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4nR-HD-7Wk">
                                                 <rect key="frame" x="0.0" y="0.0" width="41" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                                <color key="textColor" name="gelo botao"/>
+                                                <color key="textColor" systemColor="tertiaryLabelColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" text="SEG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJB-e0-Gt6">
                                                 <rect key="frame" x="62" y="0.0" width="33.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                                <color key="textColor" name="gelo botao"/>
+                                                <color key="textColor" systemColor="tertiaryLabelColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" text="TER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXe-dR-Msb">
                                                 <rect key="frame" x="116.5" y="0.0" width="32" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                                <color key="textColor" name="gelo botao"/>
+                                                <color key="textColor" systemColor="tertiaryLabelColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" text="QUA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xh2-HT-dfc">
                                                 <rect key="frame" x="169.5" y="0.0" width="37" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                                <color key="textColor" name="gelo botao"/>
+                                                <color key="textColor" systemColor="tertiaryLabelColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="QUI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3eX-21-twT">
                                                 <rect key="frame" x="227.5" y="0.0" width="30" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                                <color key="textColor" name="gelo botao"/>
+                                                <color key="textColor" systemColor="tertiaryLabelColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SEX" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vuB-qZ-MRm">
                                                 <rect key="frame" x="278.5" y="0.0" width="32.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                                <color key="textColor" name="gelo botao"/>
+                                                <color key="textColor" systemColor="tertiaryLabelColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="SAB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLf-Tg-Ya7">
                                                 <rect key="frame" x="332" y="0.0" width="34" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                                <color key="textColor" name="gelo botao"/>
+                                                <color key="textColor" systemColor="tertiaryLabelColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -661,30 +646,31 @@
                                 </buttonConfiguration>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="p1T-dy-vcg">
-                                <rect key="frame" x="20" y="340" width="374" height="414"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="w3i-2q-h9q">
-                                    <size key="itemSize" width="128" height="128"/>
+                                <rect key="frame" x="0.0" y="340" width="414" height="414"/>
+                                <color key="backgroundColor" name="Bg"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="w3i-2q-h9q">
+                                    <size key="itemSize" width="360" height="170"/>
+                                    <size key="estimatedItemSize" width="360" height="170"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="0Kr-Hd-NGa">
-                                        <rect key="frame" x="19.5" y="0.0" width="335" height="160"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="rotina" id="0Kr-Hd-NGa" customClass="RoutineCollectionViewCell" customModule="Skincare" customModuleProvider="target">
+                                        <rect key="frame" x="27" y="0.0" width="360" height="170"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="bLr-Vj-LoN">
-                                            <rect key="frame" x="0.0" y="0.0" width="335" height="160"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="360" height="170"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome rotina " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yfQ-fu-pr0">
-                                                    <rect key="frame" x="20" y="16" width="295" height="24"/>
+                                                    <rect key="frame" x="20" y="16" width="320" height="24"/>
                                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manhã" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EY8-cF-wxl">
-                                                    <rect key="frame" x="44" y="120" width="52" height="20.5"/>
+                                                    <rect key="frame" x="44" y="125" width="52" height="20.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="52" id="IQd-Bq-gdQ"/>
                                                     </constraints>
@@ -693,7 +679,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tarde" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHP-mu-1T5">
-                                                    <rect key="frame" x="143" y="120" width="52" height="20.5"/>
+                                                    <rect key="frame" x="143" y="125" width="52" height="20.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="52" id="kqT-XG-dCx"/>
                                                     </constraints>
@@ -702,7 +688,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Noite" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9e-Q8-qRM">
-                                                    <rect key="frame" x="239" y="120" width="52" height="20.5"/>
+                                                    <rect key="frame" x="239" y="125" width="77" height="20.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="52" id="KnM-Wl-lM8"/>
                                                     </constraints>
@@ -713,24 +699,27 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="yfQ-fu-pr0" firstAttribute="leading" secondItem="bLr-Vj-LoN" secondAttribute="leading" constant="20" id="3NS-Na-OMJ"/>
-                                                <constraint firstItem="EY8-cF-wxl" firstAttribute="top" secondItem="yfQ-fu-pr0" secondAttribute="bottom" constant="80" id="713-UI-wve"/>
-                                                <constraint firstItem="h9e-Q8-qRM" firstAttribute="top" secondItem="yfQ-fu-pr0" secondAttribute="bottom" constant="80" id="O3a-qq-Evt"/>
+                                                <constraint firstItem="EY8-cF-wxl" firstAttribute="top" secondItem="yfQ-fu-pr0" secondAttribute="bottom" constant="85" id="713-UI-wve"/>
+                                                <constraint firstItem="h9e-Q8-qRM" firstAttribute="top" secondItem="yfQ-fu-pr0" secondAttribute="bottom" constant="85" id="O3a-qq-Evt"/>
                                                 <constraint firstItem="WHP-mu-1T5" firstAttribute="leading" secondItem="EY8-cF-wxl" secondAttribute="trailing" constant="47" id="XEO-ST-W22"/>
                                                 <constraint firstItem="h9e-Q8-qRM" firstAttribute="leading" secondItem="WHP-mu-1T5" secondAttribute="trailing" constant="44" id="aZf-k6-bv9"/>
                                                 <constraint firstItem="EY8-cF-wxl" firstAttribute="leading" secondItem="bLr-Vj-LoN" secondAttribute="leading" constant="44" id="fUh-r4-TP5"/>
                                                 <constraint firstAttribute="trailing" secondItem="h9e-Q8-qRM" secondAttribute="trailing" constant="44" id="gQr-7u-ZMZ"/>
-                                                <constraint firstItem="WHP-mu-1T5" firstAttribute="top" secondItem="yfQ-fu-pr0" secondAttribute="bottom" constant="80" id="gW6-kL-z2C"/>
+                                                <constraint firstItem="WHP-mu-1T5" firstAttribute="top" secondItem="yfQ-fu-pr0" secondAttribute="bottom" constant="85" id="gW6-kL-z2C"/>
                                                 <constraint firstItem="yfQ-fu-pr0" firstAttribute="top" secondItem="bLr-Vj-LoN" secondAttribute="top" constant="16" id="o1y-En-lIB"/>
                                                 <constraint firstAttribute="trailing" secondItem="yfQ-fu-pr0" secondAttribute="trailing" constant="20" id="r3V-wp-Ivy"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" name="gelo botao"/>
-                                        <size key="customSize" width="335" height="160"/>
+                                        <size key="customSize" width="360" height="170"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                 <integer key="value" value="8"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <outlet property="nameRoutine" destination="yfQ-fu-pr0" id="8bv-QO-HkQ"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -748,7 +737,7 @@
                         <color key="backgroundColor" name="Bg"/>
                         <constraints>
                             <constraint firstItem="p1T-dy-vcg" firstAttribute="top" secondItem="2zh-LX-y6n" secondAttribute="bottom" constant="20" id="0br-M9-Yob"/>
-                            <constraint firstItem="BxC-Fh-b8b" firstAttribute="trailing" secondItem="p1T-dy-vcg" secondAttribute="trailing" constant="20" id="AxE-bk-tGI"/>
+                            <constraint firstItem="BxC-Fh-b8b" firstAttribute="trailing" secondItem="p1T-dy-vcg" secondAttribute="trailing" id="AxE-bk-tGI"/>
                             <constraint firstItem="4cz-rp-qQL" firstAttribute="leading" secondItem="BxC-Fh-b8b" secondAttribute="leading" constant="350" id="Kds-zl-Poe"/>
                             <constraint firstItem="YYq-I7-S4L" firstAttribute="top" secondItem="BxC-Fh-b8b" secondAttribute="top" constant="26" id="QZG-tw-eX8"/>
                             <constraint firstItem="BxC-Fh-b8b" firstAttribute="trailing" secondItem="2zh-LX-y6n" secondAttribute="trailing" constant="20" id="VZL-tI-fYl"/>
@@ -763,12 +752,15 @@
                             <constraint firstItem="BxC-Fh-b8b" firstAttribute="trailing" secondItem="zAj-ee-WsH" secondAttribute="trailing" constant="20" id="mjf-va-wMd"/>
                             <constraint firstItem="zAj-ee-WsH" firstAttribute="top" secondItem="CS7-LM-awc" secondAttribute="bottom" constant="20" id="pbl-Bk-4QB"/>
                             <constraint firstItem="YYq-I7-S4L" firstAttribute="leading" secondItem="CS7-LM-awc" secondAttribute="trailing" constant="75" id="rjv-Lm-BC5"/>
-                            <constraint firstItem="p1T-dy-vcg" firstAttribute="leading" secondItem="BxC-Fh-b8b" secondAttribute="leading" constant="20" id="ssf-Ej-W2o"/>
+                            <constraint firstItem="p1T-dy-vcg" firstAttribute="leading" secondItem="BxC-Fh-b8b" secondAttribute="leading" id="ssf-Ej-W2o"/>
                             <constraint firstItem="BxC-Fh-b8b" firstAttribute="trailing" secondItem="YYq-I7-S4L" secondAttribute="trailing" constant="20" id="yFc-5E-oh5"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Hoje" image="calendar" catalog="system" id="9ue-FL-Sm9"/>
                     <navigationItem key="navigationItem" id="vpI-Ne-hpS"/>
+                    <connections>
+                        <outlet property="routineCollectionView" destination="p1T-dy-vcg" id="IvD-FN-XNn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sL6-bZ-gka" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -794,7 +786,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="89S-7S-7dZ">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="89S-7S-7dZ">
                                 <rect key="frame" x="20" y="270" width="374" height="443"/>
                                 <color key="backgroundColor" name="Bg"/>
                                 <prototypes>
@@ -892,11 +884,11 @@
                                             <outlet property="girls" destination="Ahh-Y5-Hre" id="BQL-Cc-qEU"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="dia" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="dia" rowHeight="30" id="CJp-8V-9Wb" customClass="DayTableViewCell" customModule="Skincare" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="204" width="374" height="30"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="dia" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="dia" rowHeight="25" id="CJp-8V-9Wb" customClass="DayTableViewCell" customModule="Skincare" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="204" width="374" height="25"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CJp-8V-9Wb" id="Gf6-pE-mZb">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="30"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="25"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SEU DIA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RKY-uZ-95R">
@@ -919,7 +911,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="switch" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="switch" id="lPC-Bi-MHN" customClass="SwitchDayTableViewCell" customModule="Skincare" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="234" width="374" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="229" width="374" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lPC-Bi-MHN" id="Cka-OD-gM8">
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
@@ -1078,7 +1070,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="lC6-EQ-dMs"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="Bg"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Estante" image="bag" catalog="system" id="l31-i2-mKl"/>
                 </viewController>
@@ -1115,9 +1107,6 @@
         <namedColor name="gelo botao">
             <color red="0.88999998569488525" green="0.90200001001358032" blue="0.9179999828338623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="tertiaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
