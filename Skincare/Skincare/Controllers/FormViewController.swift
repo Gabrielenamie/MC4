@@ -56,7 +56,7 @@ class FormViewController: UIViewController {
         super.viewDidLoad()
         newQuestion()
         let myBackButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
-        myBackButton.setTitle("YOUR TITLE", for: UIControl.State.normal)
+        myBackButton.setTitle("Anterior", for: UIControl.State.normal)
         myBackButton.addTarget(self, action: #selector(previousAction), for: .touchUpInside)
         let myCustomBackButtonItem:UIBarButtonItem = UIBarButtonItem(customView: myBackButton)
         self.navigationItem.leftBarButtonItem  = myCustomBackButtonItem
