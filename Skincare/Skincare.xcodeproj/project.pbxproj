@@ -14,10 +14,16 @@
 		99B1647127516C6100DE8120 /* Skincare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99B1646F27516C6100DE8120 /* Skincare.xcdatamodeld */; };
 		99B1647327516C6300DE8120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99B1647227516C6300DE8120 /* Assets.xcassets */; };
 		99B1647627516C6300DE8120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B1647427516C6300DE8120 /* LaunchScreen.storyboard */; };
+		A02F0F5C275813D800AFD1C1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F0F5B275813D800AFD1C1 /* SettingsViewController.swift */; };
+		A02F0F5E2758140200AFD1C1 /* NameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F0F5D2758140200AFD1C1 /* NameTableViewCell.swift */; };
+		A02F0F602758141600AFD1C1 /* AvatarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F0F5F2758141600AFD1C1 /* AvatarTableViewCell.swift */; };
+		A02F0F622758142400AFD1C1 /* DayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F0F612758142400AFD1C1 /* DayTableViewCell.swift */; };
+		A02F0F65275814A400AFD1C1 /* SwitchDayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F0F64275814A400AFD1C1 /* SwitchDayTableViewCell.swift */; };
 		A0F388C92756DDC700153D13 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F388C82756DDC700153D13 /* NameViewController.swift */; };
 		A0F388CB2756DDE600153D13 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F388CA2756DDE600153D13 /* FormViewController.swift */; };
 		A0F388CD2756DE0600153D13 /* SkinTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F388CC2756DE0600153D13 /* SkinTypeViewController.swift */; };
 		A0F388CF2756F9C800153D13 /* YourDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F388CE2756F9C800153D13 /* YourDayViewController.swift */; };
+		DF46B8372757EB920076F349 /* ShelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46B8362757EB920076F349 /* ShelfViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +36,16 @@
 		99B1647227516C6300DE8120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99B1647527516C6300DE8120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99B1647727516C6300DE8120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02F0F5B275813D800AFD1C1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A02F0F5D2758140200AFD1C1 /* NameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTableViewCell.swift; sourceTree = "<group>"; };
+		A02F0F5F2758141600AFD1C1 /* AvatarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarTableViewCell.swift; sourceTree = "<group>"; };
+		A02F0F612758142400AFD1C1 /* DayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTableViewCell.swift; sourceTree = "<group>"; };
+		A02F0F64275814A400AFD1C1 /* SwitchDayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchDayTableViewCell.swift; sourceTree = "<group>"; };
 		A0F388C82756DDC700153D13 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 		A0F388CA2756DDE600153D13 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		A0F388CC2756DE0600153D13 /* SkinTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTypeViewController.swift; sourceTree = "<group>"; };
 		A0F388CE2756F9C800153D13 /* YourDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourDayViewController.swift; sourceTree = "<group>"; };
+		DF46B8362757EB920076F349 /* ShelfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,21 +59,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		217176B227542A8000C5CD14 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				99B1646A27516C6100DE8120 /* ViewController.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		217176B327542A9500C5CD14 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		99B1645A27516C6100DE8120 = {
 			isa = PBXGroup;
 			children = (
@@ -81,18 +78,28 @@
 		99B1646527516C6100DE8120 /* Skincare */ = {
 			isa = PBXGroup;
 			children = (
-				217176B327542A9500C5CD14 /* Model */,
-				217176B227542A8000C5CD14 /* View */,
 				99B1646627516C6100DE8120 /* AppDelegate.swift */,
 				99B1646827516C6100DE8120 /* SceneDelegate.swift */,
 				A0F388D02756F9F100153D13 /* Controllers */,
 				99B1646C27516C6100DE8120 /* Main.storyboard */,
+				A02F0F632758142A00AFD1C1 /* Settings Cells */,
 				99B1647227516C6300DE8120 /* Assets.xcassets */,
 				99B1647427516C6300DE8120 /* LaunchScreen.storyboard */,
 				99B1647727516C6300DE8120 /* Info.plist */,
 				99B1646F27516C6100DE8120 /* Skincare.xcdatamodeld */,
 			);
 			path = Skincare;
+			sourceTree = "<group>";
+		};
+		A02F0F632758142A00AFD1C1 /* Settings Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A02F0F5D2758140200AFD1C1 /* NameTableViewCell.swift */,
+				A02F0F612758142400AFD1C1 /* DayTableViewCell.swift */,
+				A02F0F64275814A400AFD1C1 /* SwitchDayTableViewCell.swift */,
+				A02F0F5F2758141600AFD1C1 /* AvatarTableViewCell.swift */,
+			);
+			path = "Settings Cells";
 			sourceTree = "<group>";
 		};
 		A0F388D02756F9F100153D13 /* Controllers */ = {
@@ -103,6 +110,8 @@
 				A0F388CA2756DDE600153D13 /* FormViewController.swift */,
 				A0F388CC2756DE0600153D13 /* SkinTypeViewController.swift */,
 				A0F388CE2756F9C800153D13 /* YourDayViewController.swift */,
+				DF46B8362757EB920076F349 /* ShelfViewController.swift */,
+				A02F0F5B275813D800AFD1C1 /* SettingsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -182,7 +191,13 @@
 				99B1646B27516C6100DE8120 /* OnboardingViewController.swift in Sources */,
 				99B1647127516C6100DE8120 /* Skincare.xcdatamodeld in Sources */,
 				99B1646727516C6100DE8120 /* AppDelegate.swift in Sources */,
+				A02F0F65275814A400AFD1C1 /* SwitchDayTableViewCell.swift in Sources */,
 				99B1646927516C6100DE8120 /* SceneDelegate.swift in Sources */,
+				A02F0F5E2758140200AFD1C1 /* NameTableViewCell.swift in Sources */,
+				A02F0F602758141600AFD1C1 /* AvatarTableViewCell.swift in Sources */,
+				DF46B8372757EB920076F349 /* ShelfViewController.swift in Sources */,
+				A02F0F5C275813D800AFD1C1 /* SettingsViewController.swift in Sources */,
+				A02F0F622758142400AFD1C1 /* DayTableViewCell.swift in Sources */,
 				A0F388CD2756DE0600153D13 /* SkinTypeViewController.swift in Sources */,
 				A0F388C92756DDC700153D13 /* NameViewController.swift in Sources */,
 				A0F388CF2756F9C800153D13 /* YourDayViewController.swift in Sources */,
