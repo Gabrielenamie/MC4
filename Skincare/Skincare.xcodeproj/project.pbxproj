@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		99B1646727516C6100DE8120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B1646627516C6100DE8120 /* AppDelegate.swift */; };
 		99B1646927516C6100DE8120 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B1646827516C6100DE8120 /* SceneDelegate.swift */; };
-		99B1646B27516C6100DE8120 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B1646A27516C6100DE8120 /* ViewController.swift */; };
+		99B1646B27516C6100DE8120 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B1646A27516C6100DE8120 /* OnboardingViewController.swift */; };
 		99B1646E27516C6100DE8120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B1646C27516C6100DE8120 /* Main.storyboard */; };
 		99B1647127516C6100DE8120 /* Skincare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99B1646F27516C6100DE8120 /* Skincare.xcdatamodeld */; };
 		99B1647327516C6300DE8120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99B1647227516C6300DE8120 /* Assets.xcassets */; };
 		99B1647627516C6300DE8120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B1647427516C6300DE8120 /* LaunchScreen.storyboard */; };
+		A0F388C92756DDC700153D13 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F388C82756DDC700153D13 /* NameViewController.swift */; };
+		A0F388CB2756DDE600153D13 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F388CA2756DDE600153D13 /* FormViewController.swift */; };
+		A0F388CD2756DE0600153D13 /* SkinTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F388CC2756DE0600153D13 /* SkinTypeViewController.swift */; };
+		A0F388CF2756F9C800153D13 /* YourDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F388CE2756F9C800153D13 /* YourDayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		99B1646327516C6100DE8120 /* Skincare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skincare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B1646627516C6100DE8120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99B1646827516C6100DE8120 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		99B1646A27516C6100DE8120 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99B1646A27516C6100DE8120 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		99B1646D27516C6100DE8120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99B1647027516C6100DE8120 /* Skincare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Skincare.xcdatamodel; sourceTree = "<group>"; };
 		99B1647227516C6300DE8120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99B1647527516C6300DE8120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99B1647727516C6300DE8120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F388C82756DDC700153D13 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		A0F388CA2756DDE600153D13 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		A0F388CC2756DE0600153D13 /* SkinTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTypeViewController.swift; sourceTree = "<group>"; };
+		A0F388CE2756F9C800153D13 /* YourDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourDayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +68,7 @@
 			children = (
 				99B1646627516C6100DE8120 /* AppDelegate.swift */,
 				99B1646827516C6100DE8120 /* SceneDelegate.swift */,
-				99B1646A27516C6100DE8120 /* ViewController.swift */,
+				A0F388D02756F9F100153D13 /* Controllers */,
 				99B1646C27516C6100DE8120 /* Main.storyboard */,
 				99B1647227516C6300DE8120 /* Assets.xcassets */,
 				99B1647427516C6300DE8120 /* LaunchScreen.storyboard */,
@@ -68,6 +76,18 @@
 				99B1646F27516C6100DE8120 /* Skincare.xcdatamodeld */,
 			);
 			path = Skincare;
+			sourceTree = "<group>";
+		};
+		A0F388D02756F9F100153D13 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				99B1646A27516C6100DE8120 /* OnboardingViewController.swift */,
+				A0F388C82756DDC700153D13 /* NameViewController.swift */,
+				A0F388CA2756DDE600153D13 /* FormViewController.swift */,
+				A0F388CC2756DE0600153D13 /* SkinTypeViewController.swift */,
+				A0F388CE2756F9C800153D13 /* YourDayViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99B1646B27516C6100DE8120 /* ViewController.swift in Sources */,
+				A0F388CB2756DDE600153D13 /* FormViewController.swift in Sources */,
+				99B1646B27516C6100DE8120 /* OnboardingViewController.swift in Sources */,
 				99B1647127516C6100DE8120 /* Skincare.xcdatamodeld in Sources */,
 				99B1646727516C6100DE8120 /* AppDelegate.swift in Sources */,
 				99B1646927516C6100DE8120 /* SceneDelegate.swift in Sources */,
+				A0F388CD2756DE0600153D13 /* SkinTypeViewController.swift in Sources */,
+				A0F388C92756DDC700153D13 /* NameViewController.swift in Sources */,
+				A0F388CF2756F9C800153D13 /* YourDayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +317,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7Y74F655Y8;
+				DEVELOPMENT_TEAM = 2A2JAGWQ62;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Skincare/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,7 +345,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7Y74F655Y8;
+				DEVELOPMENT_TEAM = 2A2JAGWQ62;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Skincare/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

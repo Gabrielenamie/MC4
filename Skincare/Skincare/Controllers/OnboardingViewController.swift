@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class OnboardingViewController: UIViewController {
 //    @IBOutlet weak var progressVIew: UIProgressView!
 //    let progress = Progress(totalUnitCount: 9)
     
