@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "montains.png",
+      "filename" : "noite.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "montains@2x.png",
+      "filename" : "noite@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "montains@3x.png",
+      "filename" : "noite@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
