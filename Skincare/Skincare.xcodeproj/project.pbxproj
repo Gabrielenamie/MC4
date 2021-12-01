@@ -18,6 +18,7 @@
 		A0F388CB2756DDE600153D13 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F388CA2756DDE600153D13 /* FormViewController.swift */; };
 		A0F388CD2756DE0600153D13 /* SkinTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F388CC2756DE0600153D13 /* SkinTypeViewController.swift */; };
 		A0F388CF2756F9C800153D13 /* YourDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F388CE2756F9C800153D13 /* YourDayViewController.swift */; };
+		DF46B8372757EB920076F349 /* ShelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46B8362757EB920076F349 /* ShelfViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		A0F388CA2756DDE600153D13 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		A0F388CC2756DE0600153D13 /* SkinTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTypeViewController.swift; sourceTree = "<group>"; };
 		A0F388CE2756F9C800153D13 /* YourDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourDayViewController.swift; sourceTree = "<group>"; };
+		DF46B8362757EB920076F349 /* ShelfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,21 +49,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		217176B227542A8000C5CD14 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				99B1646A27516C6100DE8120 /* ViewController.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		217176B327542A9500C5CD14 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		99B1645A27516C6100DE8120 = {
 			isa = PBXGroup;
 			children = (
@@ -81,8 +68,6 @@
 		99B1646527516C6100DE8120 /* Skincare */ = {
 			isa = PBXGroup;
 			children = (
-				217176B327542A9500C5CD14 /* Model */,
-				217176B227542A8000C5CD14 /* View */,
 				99B1646627516C6100DE8120 /* AppDelegate.swift */,
 				99B1646827516C6100DE8120 /* SceneDelegate.swift */,
 				A0F388D02756F9F100153D13 /* Controllers */,
@@ -103,6 +88,7 @@
 				A0F388CA2756DDE600153D13 /* FormViewController.swift */,
 				A0F388CC2756DE0600153D13 /* SkinTypeViewController.swift */,
 				A0F388CE2756F9C800153D13 /* YourDayViewController.swift */,
+				DF46B8362757EB920076F349 /* ShelfViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -183,6 +169,7 @@
 				99B1647127516C6100DE8120 /* Skincare.xcdatamodeld in Sources */,
 				99B1646727516C6100DE8120 /* AppDelegate.swift in Sources */,
 				99B1646927516C6100DE8120 /* SceneDelegate.swift in Sources */,
+				DF46B8372757EB920076F349 /* ShelfViewController.swift in Sources */,
 				A0F388CD2756DE0600153D13 /* SkinTypeViewController.swift in Sources */,
 				A0F388C92756DDC700153D13 /* NameViewController.swift in Sources */,
 				A0F388CF2756F9C800153D13 /* YourDayViewController.swift in Sources */,
