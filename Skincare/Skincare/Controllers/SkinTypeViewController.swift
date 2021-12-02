@@ -25,7 +25,20 @@ class SkinTypeViewController: UIViewController {
         mutableAttributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor(named: "Verde")!, range: range)
         
         skinTypeLabel.attributedText = mutableAttributedString
+
+                navigationItem.leftBarButtonItem = UIBarButtonItem(
+            title: "Anterior",
+            style: .plain,
+            target: self,
+            action: #selector(back)
+        )
         
+    }
+        @objc func back(){
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyBoard.instantiateViewController(identifier: "forms") as! FormViewController
+        vc.currentQuestion = vc.currentQuestion <= vc.questions.count ? 4 : 1
+        self.navigationController?.pushViewController(vc, animated: false)
     }
     
 }
@@ -44,4 +57,6 @@ extension SkinTypeViewController: UITableViewDataSource {
     }
     
     
-}
+
+    }
+

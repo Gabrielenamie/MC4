@@ -20,11 +20,39 @@ class FormViewController: UIViewController {
     var normalAnswers = 0
     var dryAnswers = 0
     var mixedAnswers = 0
-    
+    var button:UIButton = UIButton()
     
     //label
     @IBOutlet weak var lbl: UILabel!
     //button
+    @IBOutlet weak var dryButton: UIButton!
+    @IBOutlet weak var oilyButton: UIButton!
+    @IBOutlet weak var MixedButton: UIButton!
+    @IBOutlet weak var normalButton: UIButton!
+    @IBAction func buttonColors(_ sender: Any) {
+        guard let tag = (sender as? UIButton)?.tag else{
+            return
+        }
+        if tag == 1{
+            MixedButton.backgroundColor = UIColor.purple
+            normalButton.isSelected = false
+            oilyButton.isSelected = false
+            dryButton.isSelected = false
+        }else if tag == 2{
+                normalButton.backgroundColor = UIColor.green
+        }else if tag == 3{
+                oilyButton.backgroundColor = UIColor.gray
+        }else if tag == 4{
+                dryButton.backgroundColor = UIColor.gray
+        }
+        
+//            MixedButton.isExclusiveTouch = true
+//            oilyButton.isExclusiveTouch = true
+//            dryButton.isExclusiveTouch = true
+//            normalButton.isExclusiveTouch = true
+//
+        
+    }
     
     @IBAction func nextButton(_ sender: Any) {
         if currentQuestion != questions.count{
@@ -36,11 +64,9 @@ class FormViewController: UIViewController {
             }
         }
     }
-    
     //Function that dispays new question
     func newQuestion(){
         lbl.text = questions[currentQuestion]
-        var button:UIButton = UIButton()
         var x = 0
         for i in 1...4{
             button = view.viewWithTag(i)as! UIButton
@@ -50,24 +76,27 @@ class FormViewController: UIViewController {
     }
     override func viewWillAppear(_ animated: Bool) {
         newQuestion()
-        
     }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         newQuestion()
-        let myBackButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
-        myBackButton.setTitle("Anterior", for: UIControl.State.normal)
-        myBackButton.addTarget(self, action: #selector(previousAction), for: .touchUpInside)
-        let myCustomBackButtonItem:UIBarButtonItem = UIBarButtonItem(customView: myBackButton)
-        self.navigationItem.leftBarButtonItem  = myCustomBackButtonItem
+        navigationItem.leftBarButtonItem = UIBarButtonItem(
+            title: "Anterior",
+            style: .plain,
+            target: self,
+            action: #selector(backForms)
+        )
     }
-    @objc func previousAction(sender: UIButton){
-        if currentQuestion != questions.count{
-            newQuestion()
-            
-        }else{
-            performSegue(withIdentifier: "formsView", sender: self)
+    @objc func backForms(){
+        if currentQuestion <= 4 && currentQuestion != 0{
+            currentQuestion -= 1
+            return newQuestion()
+        }else if currentQuestion == 0{
+            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyBoard.instantiateViewController(identifier: "name") as! NameViewController
+            self.navigationController?.pushViewController(vc, animated: false)
         }
     }
 }
+
+

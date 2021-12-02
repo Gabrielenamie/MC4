@@ -13,7 +13,7 @@
         <!--Name View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="NameViewController" customModule="Skincare" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="name" id="BYZ-38-t0r" customClass="NameViewController" customModule="Skincare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -74,7 +74,7 @@
                         <barButtonItem key="rightBarButtonItem" title="Próximo" id="jfa-GC-gDj">
                             <color key="tintColor" name="Rosa botao"/>
                             <connections>
-                                <action selector="nextView:" destination="BYZ-38-t0r" id="gMc-9v-dUN"/>
+                                <segue destination="wJv-RP-ls9" kind="show" id="TF9-3y-4ps"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -90,7 +90,7 @@
         <!--Form View Controller-->
         <scene sceneID="jaM-a5-4pO">
             <objects>
-                <viewController id="wJv-RP-ls9" customClass="FormViewController" customModule="Skincare" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="forms" id="wJv-RP-ls9" customClass="FormViewController" customModule="Skincare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zFS-nV-ysT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -115,8 +115,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQz-1m-2NX">
-                                <rect key="frame" x="20" y="354.5" width="177" height="200"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQz-1m-2NX">
+                                <rect key="frame" x="20" y="354" width="177" height="200"/>
                                 <color key="backgroundColor" name="gelo botao"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="177" id="E21-3f-IfT"/>
@@ -130,9 +130,12 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonColors:" destination="wJv-RP-ls9" eventType="touchUpInside" id="Lvh-tz-c5X"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IT1-fR-7vd">
-                                <rect key="frame" x="217" y="354.5" width="177" height="200"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IT1-fR-7vd">
+                                <rect key="frame" x="217" y="354" width="177" height="200"/>
                                 <color key="backgroundColor" name="gelo botao"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="177" id="4av-Sm-1Nh"/>
@@ -146,9 +149,12 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonColors:" destination="wJv-RP-ls9" eventType="touchUpInside" id="NfV-Ut-i5h"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o7a-au-ERr">
-                                <rect key="frame" x="20" y="574.5" width="177" height="200"/>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o7a-au-ERr">
+                                <rect key="frame" x="20" y="574" width="177" height="200"/>
                                 <color key="backgroundColor" name="gelo botao"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="177" id="s1R-a7-M92"/>
@@ -162,9 +168,12 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonColors:" destination="wJv-RP-ls9" eventType="touchUpInside" id="tvf-Jg-sf9"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FM4-8g-m1H">
-                                <rect key="frame" x="217" y="574.5" width="177" height="200"/>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FM4-8g-m1H">
+                                <rect key="frame" x="217" y="574" width="177" height="200"/>
                                 <color key="backgroundColor" name="gelo botao"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="Kj1-hh-1D6"/>
@@ -178,6 +187,9 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonColors:" destination="wJv-RP-ls9" eventType="touchUpInside" id="Xps-cX-XCq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EGX-4N-sBe"/>
@@ -217,18 +229,22 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="MixedButton" destination="gQz-1m-2NX" id="I9V-tA-Fq6"/>
+                        <outlet property="dryButton" destination="FM4-8g-m1H" id="rmI-fs-S6h"/>
                         <outlet property="lbl" destination="Zpd-N7-r6G" id="Yu4-t6-TGp"/>
+                        <outlet property="normalButton" destination="IT1-fR-7vd" id="Ep1-ql-emO"/>
+                        <outlet property="oilyButton" destination="o7a-au-ERr" id="h35-SQ-hpH"/>
                         <segue destination="49a-Dp-n1M" kind="show" identifier="choiceView" id="Jk1-ZQ-oHw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OU1-NC-9r4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2569.5652173913045" y="134.59821428571428"/>
+            <point key="canvasLocation" x="2561" y="135"/>
         </scene>
         <!--Onboarding View Controller-->
         <scene sceneID="C1L-f9-PYX">
             <objects>
-                <viewController id="GoL-BW-RwK" customClass="OnboardingViewController" customModule="Skincare" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="firstView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GoL-BW-RwK" customClass="OnboardingViewController" customModule="Skincare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DcM-D3-e67">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
