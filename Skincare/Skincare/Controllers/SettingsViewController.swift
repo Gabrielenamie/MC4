@@ -12,10 +12,8 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.settingsTableView.delegate = self
         self.settingsTableView.dataSource = self
-        
         
     }
     

@@ -21,23 +21,23 @@ class FormViewController: UIViewController {
     var dryAnswers = 0
     var mixedAnswers = 0
     
-
+    
     //label
     @IBOutlet weak var lbl: UILabel!
     //button
-
+    
     @IBAction func nextButton(_ sender: Any) {
         if currentQuestion != questions.count{
             currentQuestion += 1
             if currentQuestion > 4{
-              performSegue(withIdentifier: "choiceView", sender: self)
+                performSegue(withIdentifier: "choiceView", sender: self)
             }else{
-            newQuestion()
+                newQuestion()
             }
         }
     }
-
-        //Function that dispays new question
+    
+    //Function that dispays new question
     func newQuestion(){
         lbl.text = questions[currentQuestion]
         var button:UIButton = UIButton()
@@ -52,7 +52,7 @@ class FormViewController: UIViewController {
         newQuestion()
         
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         newQuestion()
@@ -61,7 +61,7 @@ class FormViewController: UIViewController {
         myBackButton.addTarget(self, action: #selector(previousAction), for: .touchUpInside)
         let myCustomBackButtonItem:UIBarButtonItem = UIBarButtonItem(customView: myBackButton)
         self.navigationItem.leftBarButtonItem  = myCustomBackButtonItem
-        }
+    }
     @objc func previousAction(sender: UIButton){
         if currentQuestion != questions.count{
             newQuestion()
