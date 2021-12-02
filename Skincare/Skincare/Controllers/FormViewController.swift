@@ -20,27 +20,53 @@ class FormViewController: UIViewController {
     var normalAnswers = 0
     var dryAnswers = 0
     var mixedAnswers = 0
-   
-
+    var button:UIButton = UIButton()
+    
     //label
     @IBOutlet weak var lbl: UILabel!
     //button
-
+    @IBOutlet weak var dryButton: UIButton!
+    @IBOutlet weak var oilyButton: UIButton!
+    @IBOutlet weak var MixedButton: UIButton!
+    @IBOutlet weak var normalButton: UIButton!
+    @IBAction func buttonColors(_ sender: Any) {
+        guard let tag = (sender as? UIButton)?.tag else{
+            return
+        }
+        if tag == 1{
+            MixedButton.backgroundColor = UIColor.purple
+            normalButton.isSelected = false
+            oilyButton.isSelected = false
+            dryButton.isSelected = false
+        }else if tag == 2{
+                normalButton.backgroundColor = UIColor.green
+        }else if tag == 3{
+                oilyButton.backgroundColor = UIColor.gray
+        }else if tag == 4{
+                dryButton.backgroundColor = UIColor.gray
+        }
+        
+//            MixedButton.isExclusiveTouch = true
+//            oilyButton.isExclusiveTouch = true
+//            dryButton.isExclusiveTouch = true
+//            normalButton.isExclusiveTouch = true
+//
+        
+    }
+    
     @IBAction func nextButton(_ sender: Any) {
         if currentQuestion != questions.count{
             currentQuestion += 1
             if currentQuestion > 4{
-              performSegue(withIdentifier: "choiceView", sender: self)
+                performSegue(withIdentifier: "choiceView", sender: self)
             }else{
-            newQuestion()
+                newQuestion()
             }
         }
     }
-
-        //Function that dispays new question
+    //Function that dispays new question
     func newQuestion(){
         lbl.text = questions[currentQuestion]
-        var button:UIButton = UIButton()
         var x = 0
         for i in 1...4{
             button = view.viewWithTag(i)as! UIButton
@@ -51,7 +77,6 @@ class FormViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         newQuestion()
     }
-
     override func viewDidLoad() {
         super.viewDidLoad()
         newQuestion()
@@ -61,7 +86,6 @@ class FormViewController: UIViewController {
             target: self,
             action: #selector(backForms)
         )
-        // Do any additional setup after loading the view.
     }
     @objc func backForms(){
         if currentQuestion <= 4 && currentQuestion != 0{
@@ -72,8 +96,7 @@ class FormViewController: UIViewController {
             let vc = storyBoard.instantiateViewController(identifier: "name") as! NameViewController
             self.navigationController?.pushViewController(vc, animated: false)
         }
-        
     }
-    }
+}
 
 

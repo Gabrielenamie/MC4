@@ -111,7 +111,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQz-1m-2NX">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQz-1m-2NX">
                                 <rect key="frame" x="20" y="354" width="177" height="200"/>
                                 <color key="backgroundColor" name="gelo botao"/>
                                 <constraints>
@@ -126,8 +126,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonColors:" destination="wJv-RP-ls9" eventType="touchUpInside" id="Lvh-tz-c5X"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IT1-fR-7vd">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IT1-fR-7vd">
                                 <rect key="frame" x="217" y="354" width="177" height="200"/>
                                 <color key="backgroundColor" name="gelo botao"/>
                                 <constraints>
@@ -142,8 +145,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonColors:" destination="wJv-RP-ls9" eventType="touchUpInside" id="NfV-Ut-i5h"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o7a-au-ERr">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o7a-au-ERr">
                                 <rect key="frame" x="20" y="574" width="177" height="200"/>
                                 <color key="backgroundColor" name="gelo botao"/>
                                 <constraints>
@@ -158,8 +164,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonColors:" destination="wJv-RP-ls9" eventType="touchUpInside" id="tvf-Jg-sf9"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FM4-8g-m1H">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FM4-8g-m1H">
                                 <rect key="frame" x="217" y="574" width="177" height="200"/>
                                 <color key="backgroundColor" name="gelo botao"/>
                                 <constraints>
@@ -174,6 +183,9 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonColors:" destination="wJv-RP-ls9" eventType="touchUpInside" id="Xps-cX-XCq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EGX-4N-sBe"/>
@@ -212,7 +224,11 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="MixedButton" destination="gQz-1m-2NX" id="I9V-tA-Fq6"/>
+                        <outlet property="dryButton" destination="FM4-8g-m1H" id="rmI-fs-S6h"/>
                         <outlet property="lbl" destination="Zpd-N7-r6G" id="Yu4-t6-TGp"/>
+                        <outlet property="normalButton" destination="IT1-fR-7vd" id="Ep1-ql-emO"/>
+                        <outlet property="oilyButton" destination="o7a-au-ERr" id="h35-SQ-hpH"/>
                         <segue destination="49a-Dp-n1M" kind="show" identifier="choiceView" id="Jk1-ZQ-oHw"/>
                     </connections>
                 </viewController>

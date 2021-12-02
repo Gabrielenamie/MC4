@@ -17,12 +17,10 @@ class NameViewController: UIViewController {
                target: self,
                action: #selector(onboardingBack)
            )
-           // Do any additional setup after loading the view.
        }
        @objc func onboardingBack(){
                let storyBoard = UIStoryboard(name: "Main", bundle: nil)
                let vc = storyBoard.instantiateViewController(identifier: "firstView") as! OnboardingViewController
                self.navigationController?.pushViewController(vc, animated: false)
            }
-    
 }

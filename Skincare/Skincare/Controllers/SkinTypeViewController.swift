@@ -11,14 +11,12 @@ class SkinTypeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         navigationItem.leftBarButtonItem = UIBarButtonItem(
             title: "Anterior",
             style: .plain,
             target: self,
             action: #selector(back)
         )
-        // Do any additional setup after loading the view.
     }
     @objc func back(){
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
