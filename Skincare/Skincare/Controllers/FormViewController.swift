@@ -20,7 +20,7 @@ class FormViewController: UIViewController {
     var normalAnswers = 0
     var dryAnswers = 0
     var mixedAnswers = 0
-    
+   
 
     //label
     @IBOutlet weak var lbl: UILabel!
@@ -50,24 +50,30 @@ class FormViewController: UIViewController {
     }
     override func viewWillAppear(_ animated: Bool) {
         newQuestion()
-        
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         newQuestion()
-        let myBackButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
-        myBackButton.setTitle("Anterior", for: UIControl.State.normal)
-        myBackButton.addTarget(self, action: #selector(previousAction), for: .touchUpInside)
-        let myCustomBackButtonItem:UIBarButtonItem = UIBarButtonItem(customView: myBackButton)
-        self.navigationItem.leftBarButtonItem  = myCustomBackButtonItem
-        }
-    @objc func previousAction(sender: UIButton){
-        if currentQuestion != questions.count{
-            newQuestion()
-            
-        }else{
-            performSegue(withIdentifier: "formsView", sender: self)
-        }
+        navigationItem.leftBarButtonItem = UIBarButtonItem(
+            title: "Anterior",
+            style: .plain,
+            target: self,
+            action: #selector(backForms)
+        )
+        // Do any additional setup after loading the view.
     }
-}
+    @objc func backForms(){
+        if currentQuestion <= 4 && currentQuestion != 0{
+            currentQuestion -= 1
+            return newQuestion()
+        }else if currentQuestion == 0{
+            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyBoard.instantiateViewController(identifier: "name") as! NameViewController
+            self.navigationController?.pushViewController(vc, animated: false)
+        }
+        
+    }
+    }
+
+

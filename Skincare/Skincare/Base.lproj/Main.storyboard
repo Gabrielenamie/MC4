@@ -13,7 +13,7 @@
         <!--Name View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="NameViewController" customModule="Skincare" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="name" id="BYZ-38-t0r" customClass="NameViewController" customModule="Skincare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -74,13 +74,10 @@
                         <barButtonItem key="rightBarButtonItem" title="Próximo" id="jfa-GC-gDj">
                             <color key="tintColor" name="Rosa botao"/>
                             <connections>
-                                <action selector="nextView:" destination="BYZ-38-t0r" id="gMc-9v-dUN"/>
+                                <segue destination="wJv-RP-ls9" kind="show" id="TF9-3y-4ps"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <segue destination="wJv-RP-ls9" kind="show" identifier="formsView" id="BZv-XG-WMK"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -89,7 +86,7 @@
         <!--Form View Controller-->
         <scene sceneID="jaM-a5-4pO">
             <objects>
-                <viewController id="wJv-RP-ls9" customClass="FormViewController" customModule="Skincare" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="forms" id="wJv-RP-ls9" customClass="FormViewController" customModule="Skincare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zFS-nV-ysT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -221,12 +218,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OU1-NC-9r4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2569.5652173913045" y="134.59821428571428"/>
+            <point key="canvasLocation" x="2561" y="135"/>
         </scene>
         <!--Onboarding View Controller-->
         <scene sceneID="C1L-f9-PYX">
             <objects>
-                <viewController id="GoL-BW-RwK" customClass="OnboardingViewController" customModule="Skincare" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="firstView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GoL-BW-RwK" customClass="OnboardingViewController" customModule="Skincare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DcM-D3-e67">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
