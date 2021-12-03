@@ -17,16 +17,20 @@ class SkinTypeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //tableView
         self.routineTableView.delegate = self
         self.routineTableView.dataSource = self
         
+        //atributted string para mudar a cor do tipo de pele
         let range = (mainString as NSString).range(of: skinType)
         let mutableAttributedString = NSMutableAttributedString.init(string: mainString)
         mutableAttributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor(named: "Verde")!, range: range)
-        
         skinTypeLabel.attributedText = mutableAttributedString
-
-                navigationItem.leftBarButtonItem = UIBarButtonItem(
+        
+        
+        //navigationBar
+        navigationItem.leftBarButtonItem = UIBarButtonItem(
             title: "Anterior",
             style: .plain,
             target: self,
@@ -34,7 +38,8 @@ class SkinTypeViewController: UIViewController {
         )
         
     }
-        @objc func back(){
+    //Ação do backButton
+    @objc func back(){
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyBoard.instantiateViewController(identifier: "forms") as! FormViewController
         vc.currentQuestion = vc.currentQuestion <= vc.questions.count ? 4 : 1
@@ -42,6 +47,8 @@ class SkinTypeViewController: UIViewController {
     }
     
 }
+
+//tableView
 extension SkinTypeViewController: UITableViewDelegate {
     
 }
@@ -57,6 +64,6 @@ extension SkinTypeViewController: UITableViewDataSource {
     }
     
     
-
-    }
+    
+}
 

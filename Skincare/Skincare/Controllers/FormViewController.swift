@@ -39,18 +39,18 @@ class FormViewController: UIViewController {
             oilyButton.isSelected = false
             dryButton.isSelected = false
         }else if tag == 2{
-                normalButton.backgroundColor = UIColor.green
+            normalButton.backgroundColor = UIColor.green
         }else if tag == 3{
-                oilyButton.backgroundColor = UIColor.gray
+            oilyButton.backgroundColor = UIColor.gray
         }else if tag == 4{
-                dryButton.backgroundColor = UIColor.gray
+            dryButton.backgroundColor = UIColor.gray
         }
         
-//            MixedButton.isExclusiveTouch = true
-//            oilyButton.isExclusiveTouch = true
-//            dryButton.isExclusiveTouch = true
-//            normalButton.isExclusiveTouch = true
-//
+        //            MixedButton.isExclusiveTouch = true
+        //            oilyButton.isExclusiveTouch = true
+        //            dryButton.isExclusiveTouch = true
+        //            normalButton.isExclusiveTouch = true
+        //
         
     }
     

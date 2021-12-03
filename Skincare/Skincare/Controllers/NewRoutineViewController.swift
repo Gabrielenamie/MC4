@@ -23,15 +23,21 @@ class NewRoutineViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //picker
         UIDatePicker.appearance().tintColor = UIColor(named: "Rosa botao")
         //        var week: [UIButton] = [dom, seg, ter, qua, qui, sex, sab]
+        
+        //textField
         routineName.layer.borderWidth = 1
         routineName.layer.cornerRadius = 6
         routineName.layer.borderColor = UIColor(named: "Rosa botao")?.cgColor
         
+        //tableView
         tasksTableView.delegate = self
         tasksTableView.dataSource = self
         
+        //botões de repetição
         dom.translatesAutoresizingMaskIntoConstraints = false
         dom.addTarget(self, action: #selector(clicar(botao:)), for: .touchUpInside)
         seg.translatesAutoresizingMaskIntoConstraints = false
@@ -48,7 +54,7 @@ class NewRoutineViewController: UIViewController {
         sab.addTarget(self, action: #selector(clicar(botao:)), for: .touchUpInside)
         
     }
-    
+    //ação do botão de repetição
     @objc func clicar(botao: UIButton){
         if !botao.isSelected{
 //            botao.setTitleColor(.white, for: .normal)
@@ -67,6 +73,7 @@ class NewRoutineViewController: UIViewController {
     }
 }
 
+//tableView
 extension NewRoutineViewController: UITableViewDelegate{
     
 }
