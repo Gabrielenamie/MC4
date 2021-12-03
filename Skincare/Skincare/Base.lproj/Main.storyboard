@@ -72,7 +72,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Hkq-oX-FOT">
                         <barButtonItem key="rightBarButtonItem" title="Próximo" id="jfa-GC-gDj">
-                            <color key="tintColor" name="Rosa botao"/>
+                            <color key="tintColor" name="Rosa"/>
                             <connections>
                                 <segue destination="wJv-RP-ls9" kind="show" id="TF9-3y-4ps"/>
                             </connections>
@@ -123,16 +123,14 @@
                                     <constraint firstAttribute="height" constant="200" id="EnG-og-fg3"/>
                                 </constraints>
                                 <color key="tintColor" systemColor="labelColor"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button" titleAlignment="center"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="buttonColors:" destination="wJv-RP-ls9" eventType="touchUpInside" id="Lvh-tz-c5X"/>
-                                </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IT1-fR-7vd">
                                 <rect key="frame" x="217" y="354.5" width="177" height="200"/>
@@ -142,16 +140,14 @@
                                     <constraint firstAttribute="height" constant="200" id="XAk-cd-GBo"/>
                                 </constraints>
                                 <color key="tintColor" systemColor="labelColor"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button" titleAlignment="center"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="buttonColors:" destination="wJv-RP-ls9" eventType="touchUpInside" id="NfV-Ut-i5h"/>
-                                </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o7a-au-ERr">
                                 <rect key="frame" x="20" y="574.5" width="177" height="200"/>
@@ -161,16 +157,14 @@
                                     <constraint firstAttribute="height" constant="200" id="zhj-S8-uSM"/>
                                 </constraints>
                                 <color key="tintColor" systemColor="labelColor"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button" titleAlignment="center"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="buttonColors:" destination="wJv-RP-ls9" eventType="touchUpInside" id="tvf-Jg-sf9"/>
-                                </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FM4-8g-m1H">
                                 <rect key="frame" x="217" y="574.5" width="177" height="200"/>
@@ -180,16 +174,14 @@
                                     <constraint firstAttribute="width" constant="177" id="S6a-TT-wij"/>
                                 </constraints>
                                 <color key="tintColor" systemColor="labelColor"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button" titleAlignment="center"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="buttonColors:" destination="wJv-RP-ls9" eventType="touchUpInside" id="Xps-cX-XCq"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EGX-4N-sBe"/>
@@ -222,16 +214,16 @@
                     </view>
                     <navigationItem key="navigationItem" id="gJ4-Vg-7rA">
                         <barButtonItem key="rightBarButtonItem" title="Próximo" id="boK-oO-lex">
-                            <color key="tintColor" name="Rosa botao"/>
+                            <color key="tintColor" name="Rosa"/>
                             <connections>
                                 <action selector="nextButton:" destination="wJv-RP-ls9" id="d1D-Ln-xWf"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="MixedButton" destination="gQz-1m-2NX" id="I9V-tA-Fq6"/>
                         <outlet property="dryButton" destination="FM4-8g-m1H" id="rmI-fs-S6h"/>
                         <outlet property="lbl" destination="Zpd-N7-r6G" id="Yu4-t6-TGp"/>
+                        <outlet property="mixedButton" destination="gQz-1m-2NX" id="I9V-tA-Fq6"/>
                         <outlet property="normalButton" destination="IT1-fR-7vd" id="Ep1-ql-emO"/>
                         <outlet property="oilyButton" destination="o7a-au-ERr" id="h35-SQ-hpH"/>
                         <segue destination="49a-Dp-n1M" kind="show" identifier="choiceView" id="Jk1-ZQ-oHw"/>
@@ -291,7 +283,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Uxi-Ny-30r">
                         <barButtonItem key="rightBarButtonItem" title="Próximo" id="ViL-mL-aGn">
-                            <color key="tintColor" name="Rosa botao"/>
+                            <color key="tintColor" name="Rosa"/>
                             <connections>
                                 <segue destination="BYZ-38-t0r" kind="show" id="oL9-HX-C7P"/>
                             </connections>
@@ -365,6 +357,9 @@
                                     <segment title="Tarde"/>
                                     <segment title="Noite"/>
                                 </segments>
+                                <connections>
+                                    <action selector="segmentedControlActionWithSender:" destination="49a-Dp-n1M" eventType="valueChanged" id="Rtc-vP-wqU"/>
+                                </connections>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="7VE-EU-Hru">
                                 <rect key="frame" x="20" y="471" width="374" height="187"/>
@@ -425,7 +420,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="QFQ-LX-P12">
                         <barButtonItem key="rightBarButtonItem" title="Próximo" id="tWW-Ek-trr">
-                            <color key="tintColor" name="Rosa botao"/>
+                            <color key="tintColor" name="Rosa"/>
                             <connections>
                                 <segue destination="AUe-1s-Auk" kind="show" id="DfP-Py-sfz"/>
                             </connections>
@@ -434,6 +429,7 @@
                     <connections>
                         <outlet property="routineTableView" destination="7VE-EU-Hru" id="rKE-tO-7nb"/>
                         <outlet property="skinTypeLabel" destination="KVe-NZ-AQa" id="sWk-bS-DOr"/>
+                        <outlet property="tasksSegmentedControl" destination="E7q-lF-TJd" id="mfL-Dy-4GD"/>
                         <outlet property="view" destination="fpr-gb-Tt1" id="pwM-IT-7Xg"/>
                     </connections>
                 </viewController>
@@ -562,7 +558,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="p8F-q5-8ta">
                         <barButtonItem key="rightBarButtonItem" title="Concluir" id="J67-M2-AKZ">
-                            <color key="tintColor" name="Rosa botao"/>
+                            <color key="tintColor" name="Rosa"/>
                             <connections>
                                 <segue destination="9rV-R4-KIP" kind="show" id="Xqk-OJ-nch"/>
                             </connections>
@@ -1406,7 +1402,7 @@
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xr6-cX-z16">
                                                     <rect key="frame" x="305" y="6" width="51" height="31.5"/>
-                                                    <color key="onTintColor" name="Rosa botao"/>
+                                                    <color key="onTintColor" name="Rosa"/>
                                                 </switch>
                                             </subviews>
                                             <constraints>
@@ -1517,7 +1513,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="y69-d7-Qqr">
                         <barButtonItem key="rightBarButtonItem" title="Próximo" id="Vlt-Ag-VeS">
-                            <color key="tintColor" name="Rosa botao"/>
+                            <color key="tintColor" name="Rosa"/>
                             <connections>
                                 <segue destination="luA-1x-Qjd" kind="show" id="X6Q-gH-T0y"/>
                             </connections>
@@ -1539,7 +1535,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" name="Rosa botao"/>
+                        <color key="selectedImageTintColor" name="Rosa"/>
                     </tabBar>
                     <connections>
                         <segue destination="eEQ-bH-nev" kind="relationship" relationship="viewControllers" id="Upf-aX-Wvd"/>
@@ -1570,7 +1566,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="BZv-XG-WMK"/>
     </inferredMetricsTieBreakers>
-    <color key="tintColor" name="Rosa botao"/>
+    <color key="tintColor" name="Rosa"/>
     <resources>
         <image name="4montains" width="375" height="265"/>
         <image name="bag" catalog="system" width="128" height="128"/>
@@ -1594,8 +1590,11 @@
         <namedColor name="Ciano">
             <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <namedColor name="Rosa botao">
+        <namedColor name="Rosa">
             <color red="0.83499997854232788" green="0.49399998784065247" blue="0.49399998784065247" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="Rosa botao">
+            <color red="0.88235294117647056" green="0.68235294117647061" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="gelo botao">
             <color red="0.88999998569488525" green="0.90200001001358032" blue="0.9179999828338623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

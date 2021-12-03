@@ -61,7 +61,7 @@ class TodayViewController: UIViewController {
                           dia6: UIButton,
                           dia7: UIButton) {
         if !diaSelecionado.isSelected{
-            diaSelecionado.backgroundColor = UIColor(named: "Rosa botao")
+            diaSelecionado.backgroundColor = UIColor(named: "Rosa")
             diaSelecionado.titleLabel?.font = .systemFont(ofSize: 17, weight: .semibold)
             dia2.backgroundColor = UIColor(named: "Bg")
             dia2.titleLabel?.font = .systemFont(ofSize: 17, weight: .regular)

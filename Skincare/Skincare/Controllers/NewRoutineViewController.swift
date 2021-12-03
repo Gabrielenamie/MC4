@@ -25,13 +25,13 @@ class NewRoutineViewController: UIViewController {
         super.viewDidLoad()
         
         //picker
-        UIDatePicker.appearance().tintColor = UIColor(named: "Rosa botao")
+        UIDatePicker.appearance().tintColor = UIColor(named: "Rosa")
         //        var week: [UIButton] = [dom, seg, ter, qua, qui, sex, sab]
         
         //textField
         routineName.layer.borderWidth = 1
         routineName.layer.cornerRadius = 6
-        routineName.layer.borderColor = UIColor(named: "Rosa botao")?.cgColor
+        routineName.layer.borderColor = UIColor(named: "Rosa")?.cgColor
         
         //tableView
         tasksTableView.delegate = self
@@ -58,7 +58,7 @@ class NewRoutineViewController: UIViewController {
     @objc func clicar(botao: UIButton){
         if !botao.isSelected{
 //            botao.setTitleColor(.white, for: .normal)
-            botao.backgroundColor = UIColor(named: "Rosa botao")
+            botao.backgroundColor = UIColor(named: "Rosa")
             botao.titleLabel?.font = .systemFont(ofSize: 17, weight: .semibold)
             
         } else {

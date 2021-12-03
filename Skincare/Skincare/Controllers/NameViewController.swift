@@ -17,7 +17,7 @@ class NameViewController: UIViewController {
         super.viewDidLoad()
         name.layer.borderWidth = 1
         name.layer.cornerRadius = 6
-        name.layer.borderColor = UIColor(named: "Rosa botao")?.cgColor
+        name.layer.borderColor = UIColor(named: "Rosa")?.cgColor
         
         
         // Do any additional setup after loading the view.
