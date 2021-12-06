@@ -12,15 +12,14 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //tableView
+        
         self.settingsTableView.delegate = self
         self.settingsTableView.dataSource = self
+        
         
     }
     
 }
-
-//tableView
 extension SettingsViewController: UITableViewDelegate{
 }
 
