@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "girl2.png",
+      "filename" : "menina=menina2.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "girl2@2x.png",
+      "filename" : "menina=menina2@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "girl2@3x.png",
+      "filename" : "menina=menina2@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

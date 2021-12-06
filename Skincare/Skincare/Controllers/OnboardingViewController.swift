@@ -8,21 +8,22 @@
 import UIKit
 
 class OnboardingViewController: UIViewController {
-//    @IBOutlet weak var progressVIew: UIProgressView!
-//    let progress = Progress(totalUnitCount: 9)
+    //    @IBOutlet weak var progressVIew: UIProgressView!
+    //    let progress = Progress(totalUnitCount: 9)
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        navigationItem.setHidesBackButton(true, animated: false)
+        
     }
     
-//    @IBAction func botao(_ sender: Any) {
-//       
-//            self.progress.completedUnitCount += 1
-//            
-//            let progressfloat = Float(self.progress.fractionCompleted)
-//            self.progressVIew.setProgress(progressfloat, animated: true)
-//        }
-
+    //    @IBAction func botao(_ sender: Any) {
+    //
+    //            self.progress.completedUnitCount += 1
+    //
+    //            let progressfloat = Float(self.progress.fractionCompleted)
+    //            self.progressVIew.setProgress(progressfloat, animated: true)
+    //        }
+    
 }
 
