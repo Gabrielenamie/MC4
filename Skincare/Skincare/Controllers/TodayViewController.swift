@@ -21,7 +21,7 @@ class TodayViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
         //collectionView
         self.routineCollectionView.delegate = self
         self.routineCollectionView.dataSource = self
@@ -81,7 +81,6 @@ class TodayViewController: UIViewController {
             diaSelecionado.backgroundColor = UIColor(named: "Bg")
             diaSelecionado.titleLabel?.font = .systemFont(ofSize: 17, weight: .regular)
         }
-        diaSelecionado.isSelected = !diaSelecionado.isSelected
 
         
     }

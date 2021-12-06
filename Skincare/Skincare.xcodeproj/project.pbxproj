@@ -24,6 +24,7 @@
 		A02F0F6C275935EF00AFD1C1 /* NewRoutineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F0F6B275935EF00AFD1C1 /* NewRoutineViewController.swift */; };
 		A02F0F6E275940F700AFD1C1 /* SkinRoutineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F0F6D275940F700AFD1C1 /* SkinRoutineTableViewCell.swift */; };
 		A02F0F7127595EED00AFD1C1 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F0F7027595EED00AFD1C1 /* TaskTableViewCell.swift */; };
+		A09A402D275E6AD500E6122F /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09A402C275E6AD500E6122F /* ProductTableViewCell.swift */; };
 		A0F388C92756DDC700153D13 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F388C82756DDC700153D13 /* NameViewController.swift */; };
 		A0F388CB2756DDE600153D13 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F388CA2756DDE600153D13 /* FormViewController.swift */; };
 		A0F388CD2756DE0600153D13 /* SkinTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F388CC2756DE0600153D13 /* SkinTypeViewController.swift */; };
@@ -51,6 +52,7 @@
 		A02F0F6B275935EF00AFD1C1 /* NewRoutineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRoutineViewController.swift; sourceTree = "<group>"; };
 		A02F0F6D275940F700AFD1C1 /* SkinRoutineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinRoutineTableViewCell.swift; sourceTree = "<group>"; };
 		A02F0F7027595EED00AFD1C1 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		A09A402C275E6AD500E6122F /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		A0F388C82756DDC700153D13 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 		A0F388CA2756DDE600153D13 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		A0F388CC2756DE0600153D13 /* SkinTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTypeViewController.swift; sourceTree = "<group>"; };
@@ -143,8 +145,17 @@
 				A02F0F632758142A00AFD1C1 /* Settings Cells */,
 				A02F0F6F275940FE00AFD1C1 /* SkinType Cells */,
 				A02F0F73275A935F00AFD1C1 /* NewRoutine Cells */,
+				A09A402E275E6ADD00E6122F /* Shelf Cells */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		A09A402E275E6ADD00E6122F /* Shelf Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A09A402C275E6AD500E6122F /* ProductTableViewCell.swift */,
+			);
+			path = "Shelf Cells";
 			sourceTree = "<group>";
 		};
 		A0F388D02756F9F100153D13 /* Controllers */ = {
@@ -251,6 +262,7 @@
 				A02F0F672758242C00AFD1C1 /* RoutineCollectionViewCell.swift in Sources */,
 				A02F0F622758142400AFD1C1 /* DayTableViewCell.swift in Sources */,
 				A0F388CD2756DE0600153D13 /* SkinTypeViewController.swift in Sources */,
+				A09A402D275E6AD500E6122F /* ProductTableViewCell.swift in Sources */,
 				A0F388C92756DDC700153D13 /* NameViewController.swift in Sources */,
 				A0F388CF2756F9C800153D13 /* YourDayViewController.swift in Sources */,
 			);

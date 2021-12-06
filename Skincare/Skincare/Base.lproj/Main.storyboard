@@ -95,7 +95,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="fundinho" translatesAutoresizingMaskIntoConstraints="NO" id="u6d-y6-xlg">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="2 montanhas" translatesAutoresizingMaskIntoConstraints="NO" id="u6d-y6-xlg">
                                 <rect key="frame" x="0.0" y="632" width="414" height="264"/>
                             </imageView>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5Tr-bb-fd5">
@@ -254,7 +254,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="fundinho home" translatesAutoresizingMaskIntoConstraints="NO" id="qf1-s6-ZZV">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="3 montanhas" translatesAutoresizingMaskIntoConstraints="NO" id="qf1-s6-ZZV">
                                 <rect key="frame" x="0.0" y="632" width="414" height="264"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="264" id="c5P-Fm-9D0"/>
@@ -385,7 +385,7 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="fundinho" translatesAutoresizingMaskIntoConstraints="NO" id="PTf-kM-ZP6">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="2 montanhas" translatesAutoresizingMaskIntoConstraints="NO" id="PTf-kM-ZP6">
                                 <rect key="frame" x="0.0" y="666" width="414" height="264"/>
                             </imageView>
                         </subviews>
@@ -528,7 +528,7 @@
                                     </datePicker>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="4montains" translatesAutoresizingMaskIntoConstraints="NO" id="zhz-eC-AUK">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="4 montanhas" translatesAutoresizingMaskIntoConstraints="NO" id="zhz-eC-AUK">
                                 <rect key="frame" x="1" y="631" width="414" height="265"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1224,7 +1224,11 @@
                             <constraint firstItem="qGI-0H-AZs" firstAttribute="leading" secondItem="7Ng-nu-s5V" secondAttribute="leading" constant="20" id="z2i-VM-dPK"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="5M6-GX-TOz"/>
+                    <navigationItem key="navigationItem" id="5M6-GX-TOz">
+                        <barButtonItem key="rightBarButtonItem" title="Salvar" id="GNu-6A-t0r">
+                            <color key="tintColor" name="Rosa"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="dom" destination="ClS-xw-TgZ" id="n5T-3A-fcS"/>
                         <outlet property="qua" destination="xHw-WQ-7OD" id="3T4-p5-PS7"/>
@@ -1474,30 +1478,45 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="whE-K2-ZTN">
-                                <rect key="frame" x="20" y="385" width="374" height="328"/>
+                                <rect key="frame" x="20" y="314" width="374" height="399"/>
                                 <color key="backgroundColor" name="Bg"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="produto" textLabel="9I1-uy-qum" style="IBUITableViewCellStyleDefault" id="EkL-zI-Kju" customClass="ProductTableViewCell" customModule="Skincare" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="374" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EkL-zI-Kju" id="zkt-Lp-pVG">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Produto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9I1-uy-qum">
+                                                    <rect key="frame" x="20" y="0.0" width="334" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" name="Bg"/>
+                                        <connections>
+                                            <outlet property="nomeProduto" destination="9I1-uy-qum" id="0kQ-Ib-Y6l"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
-                            <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Procurar produto" translatesAutoresizingMaskIntoConstraints="NO" id="scl-k7-xpG">
-                                <rect key="frame" x="12" y="314" width="382" height="51"/>
-                                <color key="barTintColor" name="Bg"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="fundinho" translatesAutoresizingMaskIntoConstraints="NO" id="stQ-Ad-dTr">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="2 montanhas" translatesAutoresizingMaskIntoConstraints="NO" id="stQ-Ad-dTr">
                                 <rect key="frame" x="0.0" y="666" width="414" height="264"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yAK-TM-lVd"/>
                         <color key="backgroundColor" name="Bg"/>
                         <constraints>
+                            <constraint firstItem="whE-K2-ZTN" firstAttribute="top" secondItem="8MR-JN-9Wj" secondAttribute="bottom" constant="20" id="1J7-SE-9AU"/>
                             <constraint firstItem="yAK-TM-lVd" firstAttribute="bottom" secondItem="whE-K2-ZTN" secondAttribute="bottom" constant="100" id="KQf-0l-bYH"/>
                             <constraint firstItem="whE-K2-ZTN" firstAttribute="leading" secondItem="yAK-TM-lVd" secondAttribute="leading" constant="20" id="KVp-4z-tis"/>
-                            <constraint firstAttribute="trailing" secondItem="scl-k7-xpG" secondAttribute="trailing" constant="20" id="T9M-0B-YJo"/>
                             <constraint firstItem="ZfD-fg-mkY" firstAttribute="top" secondItem="yEc-AN-GzF" secondAttribute="bottom" constant="80" id="U7n-OV-7av"/>
                             <constraint firstAttribute="bottom" secondItem="stQ-Ad-dTr" secondAttribute="bottom" constant="-34" id="Ung-fY-qEa"/>
                             <constraint firstItem="ZfD-fg-mkY" firstAttribute="leading" secondItem="yAK-TM-lVd" secondAttribute="leading" constant="20" id="bDE-Hq-Du2"/>
-                            <constraint firstItem="whE-K2-ZTN" firstAttribute="top" secondItem="scl-k7-xpG" secondAttribute="bottom" constant="20" id="boy-9V-ph8"/>
-                            <constraint firstItem="scl-k7-xpG" firstAttribute="leading" secondItem="yAK-TM-lVd" secondAttribute="leading" constant="12" id="cbq-x9-YFm"/>
-                            <constraint firstItem="scl-k7-xpG" firstAttribute="top" secondItem="8MR-JN-9Wj" secondAttribute="bottom" constant="20" id="cwW-ti-nJh"/>
                             <constraint firstItem="8MR-JN-9Wj" firstAttribute="leading" secondItem="uUp-f0-6HP" secondAttribute="leading" constant="20" id="eOe-QA-EX1"/>
                             <constraint firstItem="yAK-TM-lVd" firstAttribute="trailing" secondItem="8MR-JN-9Wj" secondAttribute="trailing" constant="20" id="gAM-BC-RcY"/>
                             <constraint firstItem="stQ-Ad-dTr" firstAttribute="leading" secondItem="yAK-TM-lVd" secondAttribute="leading" id="gIg-Nj-6dM"/>
@@ -1520,6 +1539,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="productTableView" destination="whE-K2-ZTN" id="3mw-UV-8QF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TkN-91-06W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1568,11 +1590,11 @@
     </inferredMetricsTieBreakers>
     <color key="tintColor" name="Rosa"/>
     <resources>
-        <image name="4montains" width="375" height="265"/>
+        <image name="2 montanhas" width="375" height="264"/>
+        <image name="3 montanhas" width="375" height="264"/>
+        <image name="4 montanhas" width="375" height="265"/>
         <image name="bag" catalog="system" width="128" height="128"/>
         <image name="calendar" catalog="system" width="128" height="106"/>
-        <image name="fundinho" width="375" height="264"/>
-        <image name="fundinho home" width="375" height="264"/>
         <image name="fundo" width="414" height="364"/>
         <image name="girl1" width="222" height="222"/>
         <image name="girl1-profile" width="50" height="50"/>
@@ -1594,7 +1616,7 @@
             <color red="0.83499997854232788" green="0.49399998784065247" blue="0.49399998784065247" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="Rosa botao">
-            <color red="0.88235294117647056" green="0.68235294117647061" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.88200002908706665" green="0.68199998140335083" blue="0.68599998950958252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="gelo botao">
             <color red="0.88999998569488525" green="0.90200001001358032" blue="0.9179999828338623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
